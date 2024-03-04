@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1.5rem;
+  }
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+p {
+  font-size: 2.5vh;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: rgb(248, 232, 188);
+}
+
+.app:before {
+  content: "";
+  background: url("./assets/forest.jpg") no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.app .search {
+  text-align: center;
+  padding: 2rem;
+}
+
+.app input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 2px solid rgba(78, 78, 78, 0.76);
+  background: rgba(173, 173, 173, 0.568);
+  color: rgb(248, 232, 188);
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(248, 232, 188);
+}
+
+.container {
+  max-height: 100%;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin:auto;
+  max-width: 100%;
+  min-width: 80%;
+  padding: 1rem;
+  border-radius: 25px;
+  border: 2px solid rgba(78, 78, 78, 0.76);
+  background: rgba(24, 24, 24, 0.541);
+  color: rgb(248, 232, 188);
+
+}
+
+.bold {
+  font-weight: 700;
+}
